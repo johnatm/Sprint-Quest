@@ -194,7 +194,11 @@ namespace SensorTag
         {
         }
 
-    }
+            
+
+
+
+}
 
     public class AccelerometerMeasurementEventArgs : EventArgs
     {
@@ -216,5 +220,12 @@ namespace SensorTag
             private set;
         }
     }
+
+
+    
+
+
+
+
 
 }
