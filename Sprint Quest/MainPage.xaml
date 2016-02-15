@@ -10,5 +10,9 @@
 
     <Grid>
         <TextBlock x:Name="textBlock" FontSize="30" HorizontalAlignment="Left" Height="90" Margin="10,10,0,0" TextWrapping="Wrap" Text="Welcome to Sprint Quest" VerticalAlignment="Top" Width="390" SelectionChanged="textBlock_SelectionChanged" />
+        <TextBlock x:Name="textBlock1" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Height="40" Margin="10,133,0,0" TextWrapping="Wrap" Text="Microsoft Account" VerticalAlignment="Top" Width="176"/>
+        <TextBlock x:Name="textBlock2" FontSize="20" HorizontalAlignment="Left" Height="38" Margin="10,202,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="176"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="11" Margin="191,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="154"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="38" Margin="191,202,0,0" VerticalAlignment="Top" Width="154"/>
     </Grid>
 </Page>
