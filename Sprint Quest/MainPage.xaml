@@ -9,6 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <TextBlock x:Name="textBlock" FontSize="30" HorizontalAlignment="Left" Height="90" Margin="10,10,0,0" TextWrapping="Wrap" Text="Welcome to Sprint Quest" VerticalAlignment="Top" Width="390" SelectionChanged="textBlock_SelectionChanged" />
     </Grid>
 </Page>
